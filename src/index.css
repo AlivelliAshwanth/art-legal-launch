@@ -169,6 +169,10 @@
     color: hsl(var(--gold-light));
   }
 
+  .form-input {
+    @apply w-full bg-paper border border-border px-4 py-2.5 font-serif text-foreground transition-colors focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold/40;
+  }
+
   .link-underline {
     @apply relative inline-block;
   }
